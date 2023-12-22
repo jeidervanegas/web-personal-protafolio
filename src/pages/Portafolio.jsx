@@ -19,11 +19,14 @@ export const Portafolio = () => {
           <div className="grid md:grid-cols-3 gap-6 ">
             <div className="shadow-xl   rounded-xl        overflow-hidden ">
               <div className="overflow-hidden">
+                <a target='_blank' href="https://crud-completo-fronted.vercel.app/">
+
                 <img
                   className="hover:scale-110 transition-all cursor-pointer"
                   src={imgageFondo}
                   alt=""
                 />
+                </a>
               </div>
               <div>
                 <h4
