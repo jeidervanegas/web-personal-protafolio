@@ -4,6 +4,7 @@ import imgageFondo from '../img/crud-empleados-completo.png'
 import imgageVeterinaria from '../img/veterinaria.png'
 import imgageVeterinariaJ from '../img/veterinaria-javascript.png'
 import imgageControlPresupuestoJavascript from '../img/control-presupuesto-javascript.png'
+import rusas from '../img/rusas.png'
 import imgage1 from '../img/galeria-1.jpg'
 import imgage2 from '../img/galeria-2.jpg'
 import imgage3 from '../img/galeria-3.jpg'
@@ -19,13 +20,15 @@ export const Portafolio = () => {
           <div className="grid md:grid-cols-3 gap-6 ">
             <div className="shadow-xl   rounded-xl        overflow-hidden ">
               <div className="overflow-hidden">
-                <a target='_blank' href="https://crud-completo-fronted.vercel.app/">
-
-                <img
-                  className="hover:scale-110 transition-all cursor-pointer"
-                  src={imgageFondo}
-                  alt=""
-                />
+                <a
+                  target="_blank"
+                  href="https://crud-completo-fronted.vercel.app/"
+                >
+                  <img
+                    className="hover:scale-110 transition-all cursor-pointer"
+                    src={imgageFondo}
+                    alt=""
+                  />
                 </a>
               </div>
               <div>
@@ -363,11 +366,16 @@ export const Portafolio = () => {
 
             <div className="shadow-xl   rounded-xl        overflow-hidden ">
               <div className="overflow-hidden">
-                <img
-                  className="hover:scale-110 transition-all cursor-pointer"
-                  src={imgageFondo}
-                  alt=""
-                />
+                <a
+                  target="_blank"
+                  href="https://monta-as-rusas-frontend.vercel.app/"
+                >
+                  <img
+                    className="hover:scale-110 transition-all cursor-pointer"
+                    src={rusas}
+                    alt=""
+                  />
+                </a>
               </div>
               <div>
                 <h4
@@ -1048,7 +1056,6 @@ export const Portafolio = () => {
           </div>
         </div>
 
-
         <div id="javascript" className="w-11/12 m-auto">
           <h4 className="text-2xl mt-6 py-10 text-gray-700 font-bold">
             Frontend Javascript
@@ -1056,7 +1063,10 @@ export const Portafolio = () => {
           <div className="grid md:grid-cols-3 gap-6 ">
             <div className="shadow-xl   rounded-xl        overflow-hidden ">
               <div className="overflow-hidden">
-                <a target="_blank" href="https://control-presupuesto01.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://control-presupuesto01.netlify.app/"
+                >
                   <img
                     className="hover:scale-110 transition-all cursor-pointer"
                     src={imgageControlPresupuestoJavascript}
