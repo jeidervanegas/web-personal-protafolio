@@ -382,7 +382,7 @@ export const Portafolio = () => {
                   className="text-center
               my-3 text-teal-700 font-bold text-lg"
                 >
-                  Crud Administrador de Empleados
+                  Las mejores Montañas Rusas
                 </h4>
 
                 <div className="flex flex-wrap justify-center gap-3 p-2 ">
@@ -486,9 +486,7 @@ export const Portafolio = () => {
                     <h4 className="font-bold text-gray-700">Descripción</h4>
 
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Assumenda possimus facilis iure nobis, tenetur facere ipsa
-                      delectus.
+                      Este proyecto usa un archivo json en la base de datos, realizamos rutas en el backend para consumirlas en el front por medio de react
                     </p>
                   </div>
                 </div>

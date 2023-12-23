@@ -35,39 +35,29 @@ export const Home = () => {
     <div className="">
       <div className=" bg-gray-50 fixed z-10 w-full">
         <div className="w-11/12 m-auto ">
-          <header className="flex justify-between py-4 ">
-            <div>
+          <header className="flex flex-col md:flex-row text-center md:justify-between py-4 ">
+            <div className='mb-3 md:mb-0'>
               <li className="list-none">
-                <a className="text-3xl font-extrabold">
+                <a className="text-3xl font-extrabold ">
                   <span className="italic">V</span>.
                 </a>
               </li>
             </div>
             <nav className="flex justify-center items-center text-lg text-gray-700 font-semibold ">
-              <ul className="flex gap-4 justify-center items-center ">
+              <ul className="flex flex-col md:flex-row gap-4 justify-center items-center ">
                 {menuItems.map((menu) => (
                   <li className="hover:text-gray-900">
                     <Link className="hover:text-teal-700 cursor-pointer" to={menu.title} smooth={true} offset={-100}  duration={500}>{menu.title}</Link>
                   </li>
                 ))}
 
-                {/* 
-              <li className='hover:text-gray-900'>
-                <a href='#skills'>Skills</a>
-              </li>
-              <li className='hover:text-gray-900'>
-                <a href='#portafolio'>Portafolio</a>
-              </li>
-              <li className='hover:text-gray-900'>
-                <a href='#estudios'>Estudios</a>
-              </li> */}
               </ul>
             </nav>
           </header>
         </div>
       </div>
         
-      <section id="descripcion" className=" pt-12">
+      <section id="descripcion" className="pt-56 md:pt-12">
         <div className="md:w-4/5 m-auto p-10 ">
           <div className="flex  flex-col-reverse md:flex-row justify-center items-center ">
             <div className=" md:w-4/5 mt-6 md:0 ">
