@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 // import { Link } from 'react-router-dom'
 import imageProfile from '../img/jeider.png'
+import imageProfile2 from '../img/jeider2.png'
 import imgageMain from '../img/graduation-image.svg'
 import imgageFondo from '../img/fondo.jpg'
 import imgage1 from '../img/galeria-1.jpg'
@@ -39,7 +40,7 @@ export const Home = () => {
             <div className='mb-3 md:mb-0'>
               <li className="list-none">
                 <a className="text-3xl font-extrabold ">
-                  <span className="italic">V</span>.
+                  <span className="italic">JV</span>.
                 </a>
               </li>
             </div>
@@ -158,7 +159,7 @@ export const Home = () => {
             <div className="">
               <img
                 className="shadow-md  w-72 rounded-full"
-                src={imageProfile}
+                src={imageProfile2}
                 alt=""
               />
             </div>
