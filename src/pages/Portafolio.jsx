@@ -5,7 +5,9 @@ import imgageVeterinaria from '../img/veterinaria.png'
 import imgageVeterinariaJ from '../img/veterinaria-javascript.png'
 import imgageControlPresupuestoJavascript from '../img/control-presupuesto-javascript.png'
 import garyGif from '../img/garyGif.png'
+import clonePinterest from '../img/clone-pinterest.png'
 import imageLogin from '../img/login-mern.png'
+import imagePortafolio from '../img/portafolio-servicios.png'
 import rusas from '../img/rusas.png'
 import imgage1 from '../img/galeria-1.jpg'
 import imgage2 from '../img/galeria-2.jpg'
@@ -1006,18 +1008,23 @@ export const Portafolio = () => {
 
             <div className="shadow-xl   rounded-xl        overflow-hidden ">
               <div className="overflow-hidden">
-                <img
-                  className="hover:scale-110 transition-all cursor-pointer"
-                  src={imgageFondo}
-                  alt=""
-                />
+                <a
+                  target="_blank"
+                  href="https://clone-pinterest-three.vercel.app/"
+                >
+                  <img
+                    className="hover:scale-110 transition-all cursor-pointer"
+                    src={clonePinterest}
+                    alt=""
+                  />
+                </a>
               </div>
               <div>
                 <h4
                   className="text-center
               my-3 text-teal-700 font-bold text-lg"
                 >
-                  Crud Administrador de Empleados
+                  Clone de Pinterest
                 </h4>
 
                 <div className="flex flex-wrap justify-center gap-3 p-2 ">
@@ -1052,67 +1059,21 @@ export const Portafolio = () => {
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-brand-nodejs"
+                        className="icon icon-tabler icon-tabler-brand-tailwind"
                         width="22"
                         height="22"
                         viewBox="0 0 24 24"
                         strokeWidth="1.5"
-                        stroke="#87BF00"
+                        stroke="#00abfb"
                         fill="none"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M9 9v8.044a2 2 0 0 1 -2.996 1.734l-1.568 -.9a3 3 0 0 1 -1.436 -2.561v-6.635a3 3 0 0 1 1.436 -2.56l6 -3.667a3 3 0 0 1 3.128 0l6 3.667a3 3 0 0 1 1.436 2.561v6.634a3 3 0 0 1 -1.436 2.56l-6 3.667a3 3 0 0 1 -3.128 0" />
-                        <path d="M17 9h-3.5a1.5 1.5 0 0 0 0 3h2a1.5 1.5 0 0 1 0 3h-3.5" />
+                        <path d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z" />
                       </svg>
                     </div>
-                    <p>nodejs</p>
-                  </div>
-
-                  <div className="flex gap-2 justify-center items-center">
-                    <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-brand-mongodb"
-                        width="22"
-                        height="22"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="#49A248"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M12 3v19" />
-                        <path d="M18 11.227c0 3.273 -1.812 4.77 -6 9.273c-4.188 -4.503 -6 -6 -6 -9.273c0 -4.454 3.071 -6.927 6 -9.227c2.929 2.3 6 4.773 6 9.227z" />
-                      </svg>
-                    </div>
-                    <p>MongoDB</p>
-                  </div>
-
-                  <div className="flex gap-2 justify-center items-center">
-                    <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-brand-javascript"
-                        width="22"
-                        height="22"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="#F3B719"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
-                        <path d="M7.5 8h3v8l-2 -1" />
-                        <path d="M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
-                      </svg>
-                    </div>
-                    <p>express</p>
+                    <p>Tailwind</p>
                   </div>
                 </div>
 
@@ -1121,55 +1082,66 @@ export const Portafolio = () => {
                     <h4 className="font-bold text-gray-700">Descripción</h4>
 
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Assumenda possimus facilis iure nobis, tenetur facere ipsa
-                      delectus.
+                      Este es un clone de Pinterest. Consumo la api de
+                      unsplash.com para generar las imágenes. Tiene integrado un
+                      scroll infinito con react infinite scroll, el cual limité
+                      para no pasar el plan gratuito de nuestra api.
                     </p>
                   </div>
                 </div>
               </div>
               <footer className="flex justify-center gap-10 py-4 ">
                 <button className=" h-10 w-10 flex justify-center items-center bg-teal-800 hover:rotate-12 hover:cursor-pointer hover:scale-110 transition-all rounded-full">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="icon icon-tabler icon-tabler-brand-github"
-                    width="42"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="#fff"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                  <a
+                    target="_blank"
+                    href="https://github.com/jeidervanegas/clone-pinterest.git"
                   >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="icon icon-tabler icon-tabler-brand-github"
+                      width="42"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="#fff"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                    </svg>
+                  </a>
                 </button>
                 <button className="h-10 w-10 flex justify-center items-center bg-teal-800 rounded-full hover:rotate-12 hover:cursor-pointer hover:scale-110 transition-all ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="icon icon-tabler icon-tabler-world-www"
-                    width="42"
-                    height="42"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="#ffffff"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                  <a
+                    target="_blank"
+                    href="https://clone-pinterest-three.vercel.app/"
                   >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M19.5 7a9 9 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4" />
-                    <path d="M11.5 3a16.989 16.989 0 0 0 -1.826 4" />
-                    <path d="M12.5 3a16.989 16.989 0 0 1 1.828 4" />
-                    <path d="M19.5 17a9 9 0 0 1 -7.5 4a8.991 8.991 0 0 1 -7.484 -4" />
-                    <path d="M11.5 21a16.989 16.989 0 0 1 -1.826 -4" />
-                    <path d="M12.5 21a16.989 16.989 0 0 0 1.828 -4" />
-                    <path d="M2 10l1 4l1.5 -4l1.5 4l1 -4" />
-                    <path d="M17 10l1 4l1.5 -4l1.5 4l1 -4" />
-                    <path d="M9.5 10l1 4l1.5 -4l1.5 4l1 -4" />
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="icon icon-tabler icon-tabler-world-www"
+                      width="42"
+                      height="42"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="#ffffff"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M19.5 7a9 9 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4" />
+                      <path d="M11.5 3a16.989 16.989 0 0 0 -1.826 4" />
+                      <path d="M12.5 3a16.989 16.989 0 0 1 1.828 4" />
+                      <path d="M19.5 17a9 9 0 0 1 -7.5 4a8.991 8.991 0 0 1 -7.484 -4" />
+                      <path d="M11.5 21a16.989 16.989 0 0 1 -1.826 -4" />
+                      <path d="M12.5 21a16.989 16.989 0 0 0 1.828 -4" />
+                      <path d="M2 10l1 4l1.5 -4l1.5 4l1 -4" />
+                      <path d="M17 10l1 4l1.5 -4l1.5 4l1 -4" />
+                      <path d="M9.5 10l1 4l1.5 -4l1.5 4l1 -4" />
+                    </svg>
+                  </a>
                 </button>
               </footer>
             </div>
@@ -1343,22 +1315,27 @@ export const Portafolio = () => {
 
             <div className="shadow-xl   rounded-xl        overflow-hidden ">
               <div className="overflow-hidden">
-                <img
-                  className="hover:scale-110 transition-all cursor-pointer"
-                  src={imgage1}
-                  alt=""
-                />
+                <a
+                  target="_blank"
+                  href="https://web-zatori.netlify.app/"
+                >
+                  <img
+                    className="hover:scale-110 transition-all cursor-pointer"
+                    src={imagePortafolio}
+                    alt=""
+                  />
+                </a>
               </div>
               <div>
                 <h4
                   className="text-center
               my-3 text-teal-700 font-bold text-lg"
                 >
-                  Crud Administrador de Empleados
+                  Portafolio de Servicios Blog
                 </h4>
-
+             
                 <div className="flex flex-wrap justify-center gap-3 p-2 ">
-                  <div className="flex gap-2 justify-center items-center">
+                  {/* <div className="flex gap-2 justify-center items-center">
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1379,7 +1356,7 @@ export const Portafolio = () => {
                       </svg>
                     </div>
                     <p>Javascript</p>
-                  </div>
+                  </div> */}
 
                   <div className="flex gap-2 justify-center items-center">
                     <div>
@@ -1430,55 +1407,65 @@ export const Portafolio = () => {
                     <h4 className="font-bold text-gray-700">Descripción</h4>
 
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Assumenda possimus facilis iure nobis, tenetur facere ipsa
-                      delectus.
+                      Este es un proyecto estático, el cual solo expone el manejo de css. Usa flexbox, grid, en otras funciones más avanzadas en css3
                     </p>
                   </div>
                 </div>
               </div>
               <footer className="flex justify-center gap-10 py-4 ">
-                <button className=" h-10 w-10 flex justify-center items-center bg-teal-800 hover:rotate-12 hover:cursor-pointer hover:scale-110 transition-all rounded-full">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="icon icon-tabler icon-tabler-brand-github"
-                    width="42"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="#fff"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                {/* <button className=" h-10 w-10 flex flex-col justify-center items-center bg-teal-800 hover:rotate-12 hover:cursor-pointer hover:scale-110 transition-all rounded-full">
+                  <a
+                    target="_blank"
+                    href="https://github.com/jeidervanegas/crud-completo-fronted.git"
                   >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                  </svg>
-                </button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="icon icon-tabler icon-tabler-brand-github"
+                      width="42"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="#fff"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                    </svg>
+                  </a>
+           
+                </button> */}
+
                 <button className="h-10 w-10 flex justify-center items-center bg-teal-800 rounded-full hover:rotate-12 hover:cursor-pointer hover:scale-110 transition-all ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="icon icon-tabler icon-tabler-world-www"
-                    width="42"
-                    height="42"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="#ffffff"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                  <a
+                    target="_blank"
+                    href="https://crud-completo-fronted.vercel.app/"
                   >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M19.5 7a9 9 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4" />
-                    <path d="M11.5 3a16.989 16.989 0 0 0 -1.826 4" />
-                    <path d="M12.5 3a16.989 16.989 0 0 1 1.828 4" />
-                    <path d="M19.5 17a9 9 0 0 1 -7.5 4a8.991 8.991 0 0 1 -7.484 -4" />
-                    <path d="M11.5 21a16.989 16.989 0 0 1 -1.826 -4" />
-                    <path d="M12.5 21a16.989 16.989 0 0 0 1.828 -4" />
-                    <path d="M2 10l1 4l1.5 -4l1.5 4l1 -4" />
-                    <path d="M17 10l1 4l1.5 -4l1.5 4l1 -4" />
-                    <path d="M9.5 10l1 4l1.5 -4l1.5 4l1 -4" />
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="icon icon-tabler icon-tabler-world-www"
+                      width="42"
+                      height="42"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="#ffffff"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M19.5 7a9 9 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4" />
+                      <path d="M11.5 3a16.989 16.989 0 0 0 -1.826 4" />
+                      <path d="M12.5 3a16.989 16.989 0 0 1 1.828 4" />
+                      <path d="M19.5 17a9 9 0 0 1 -7.5 4a8.991 8.991 0 0 1 -7.484 -4" />
+                      <path d="M11.5 21a16.989 16.989 0 0 1 -1.826 -4" />
+                      <path d="M12.5 21a16.989 16.989 0 0 0 1.828 -4" />
+                      <path d="M2 10l1 4l1.5 -4l1.5 4l1 -4" />
+                      <path d="M17 10l1 4l1.5 -4l1.5 4l1 -4" />
+                      <path d="M9.5 10l1 4l1.5 -4l1.5 4l1 -4" />
+                    </svg>
+                  </a>
                 </button>
               </footer>
             </div>
