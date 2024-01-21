@@ -8,7 +8,7 @@ import imgage1 from '../img/galeria-1.jpg'
 import imgage2 from '../img/galeria-2.jpg'
 import imgage3 from '../img/galeria-3.jpg'
 import { Portafolio } from './Portafolio'
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 export const Home = () => {
   const Project = ['fullStack', 'frontendReact', 'nativo']
@@ -37,7 +37,7 @@ export const Home = () => {
       <div className=" bg-gray-50 fixed z-10 w-full">
         <div className="w-11/12 m-auto ">
           <header className="flex flex-col md:flex-row text-center md:justify-between py-4 ">
-            <div className='mb-3 md:mb-0'>
+            <div className="mb-3 md:mb-0">
               <li className="list-none">
                 <a className="text-3xl font-extrabold ">
                   <span className="italic">JV</span>.
@@ -47,17 +47,24 @@ export const Home = () => {
             <nav className="flex justify-center items-center text-lg text-gray-700 font-semibold ">
               <ul className="flex flex-col md:flex-row gap-4 justify-center items-center ">
                 {menuItems.map((menu) => (
-                  <li className="hover:text-gray-900">
-                    <Link className="hover:text-teal-700 cursor-pointer" to={menu.title} smooth={true} offset={-100}  duration={500}>{menu.title}</Link>
+                  <li className="hover:text-gray-900" key={menu.id}>
+                    <Link
+                      className="hover:text-teal-700 cursor-pointer"
+                      to={menu.title}
+                      smooth={true}
+                      offset={-100}
+                      duration={500}
+                    >
+                      {menu.title}
+                    </Link>
                   </li>
                 ))}
-
               </ul>
             </nav>
           </header>
         </div>
       </div>
-        
+
       <section id="descripcion" className="pt-56 md:pt-12">
         <div className="md:w-4/5 m-auto p-10 ">
           <div className="flex  flex-col-reverse md:flex-row justify-center items-center ">
@@ -84,55 +91,71 @@ export const Home = () => {
               <p className="w-11/12">
                 También poseo cualidades comunicativas, las cuales me permiten
                 trabajar en equipo y poder integrarme o adaptarme a cualquier
-                ambiente laboral.
+                ambiente laboral. Contácto:{' '}
+                <span className="text-gray-500 font-bold">
+                  {' '}
+                  +57 323 832 3994
+                </span>
               </p>
 
               <div className="flex flex-col md:flex-row justify-between items-center gap-6 mt-6 mb-6 w-11/12">
-                <button className="shadow-lg w-full md:w-auto py-3 text-teal-500 font-bold border-2 border-teal-500 hover:bg-teal-500 hover:text-white transition-all px-8 rounded-full ">
-                  Descargar CV
-                </button>
+                <a
+                  target="_blank"
+                  href="https://www.mediafire.com/file/qw9gx5cgwjpz8oo/CV_jeider_gomez_vanegass.pdf/file"
+                >
+                  <button className="shadow-lg w-full md:w-auto py-3 text-teal-500 font-bold border-2 border-teal-500 hover:bg-teal-500 hover:text-white transition-all px-8 rounded-full ">
+                    Descargar CV
+                  </button>
+                </a>
 
                 <div>
                   <div className="flex justify-end gap-10">
-                    <div className="hover:cursor-pointer">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-brand-youtube"
-                        width="32"
-                        height="32"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="#4B5563"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
-                        <path d="M10 9l5 3l-5 3z" />
-                      </svg>
-                    </div>
-                    <div className="hover:cursor-pointer">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-brand-linkedin"
-                        width="32"
-                        height="32"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="#4B5563"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
-                        <path d="M8 11l0 5" />
-                        <path d="M8 8l0 .01" />
-                        <path d="M12 16l0 -5" />
-                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-                      </svg>
-                    </div>
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/watch?v=CP4E7ZCIclI&t=52s"
+                    >
+                      <div className="hover:cursor-pointer">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-brand-youtube"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="#4B5563"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                          <path d="M10 9l5 3l-5 3z" />
+                        </svg>
+                      </div>
+                    </a>
+                    <a target='_blank' href="https://www.linkedin.com/in/jeider-gomez-8b278328a/">
+                      <div className="hover:cursor-pointer">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-brand-linkedin"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="#4B5563"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                          <path d="M8 11l0 5" />
+                          <path d="M8 8l0 .01" />
+                          <path d="M12 16l0 -5" />
+                          <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                        </svg>
+                      </div>
+                    </a>
                     <div className="hover:cursor-pointer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
