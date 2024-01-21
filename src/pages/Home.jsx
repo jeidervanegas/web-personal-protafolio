@@ -101,7 +101,7 @@ export const Home = () => {
               <div className="flex flex-col md:flex-row justify-between items-center gap-6 mt-6 mb-6 w-11/12">
                 <a
                   target="_blank"
-                  href="https://www.mediafire.com/file/qw9gx5cgwjpz8oo/CV_jeider_gomez_vanegass.pdf/file"
+                  href="https://www.mediafire.com/file/locso65pmxoyx0o/CV_jeider_gomez_vanegass.pdf/file"
                 >
                   <button className="shadow-lg w-full md:w-auto py-3 text-teal-500 font-bold border-2 border-teal-500 hover:bg-teal-500 hover:text-white transition-all px-8 rounded-full ">
                     Descargar CV
