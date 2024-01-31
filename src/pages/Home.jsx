@@ -418,8 +418,8 @@ export const Home = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon icon-tabler icon-tabler-sql"
-              width="92"
-              height="92"
+              width="72"
+              height="72"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="#00abfb"
