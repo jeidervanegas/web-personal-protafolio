@@ -133,7 +133,10 @@ export const Home = () => {
                         </svg>
                       </div>
                     </a>
-                    <a target='_blank' href="https://www.linkedin.com/in/jeider-gomez-8b278328a/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/jeider-gomez-8b278328a/"
+                    >
                       <div className="hover:cursor-pointer">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -410,6 +413,27 @@ export const Home = () => {
             <p className="text-lg uppercase text-gray-700 font-bold">
               mongo db
             </p>
+          </div>
+          <div className="flex flex-col justify-center items-center   shadow-lg rounded-xl p-2 hover:shadow-lg  cursor-pointer bg-white hover:-translate-y-4 transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-sql"
+              width="92"
+              height="92"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="#00abfb"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" />
+              <path d="M17 8v8h4" />
+              <path d="M13 15l1 1" />
+              <path d="M3 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1" />
+            </svg>
+            <p className="text-lg uppercase text-gray-700 font-bold">SQL</p>
           </div>
 
           <div className="flex flex-col justify-center items-center   shadow-lg rounded-xl p-2 hover:shadow-lg  cursor-pointer bg-white hover:-translate-y-4 transition-all">
