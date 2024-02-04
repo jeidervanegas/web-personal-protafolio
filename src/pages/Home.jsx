@@ -101,7 +101,7 @@ export const Home = () => {
               <div className="flex flex-col md:flex-row justify-between items-center gap-6 mt-6 mb-6 w-11/12">
                 <a
                   target="_blank"
-                  href="https://www.mediafire.com/file/locso65pmxoyx0o/CV_jeider_gomez_vanegass.pdf/file"
+                  href="https://www.mediafire.com/file/5tzgvuk7ly1bcbr/CV_jeider_gomez_vanegass.pdf/file"
                 >
                   <button className="shadow-lg w-full md:w-auto py-3 text-teal-500 font-bold border-2 border-teal-500 hover:bg-teal-500 hover:text-white transition-all px-8 rounded-full ">
                     Descargar CV
@@ -434,6 +434,28 @@ export const Home = () => {
               <path d="M3 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1" />
             </svg>
             <p className="text-lg uppercase text-gray-700 font-bold">SQL</p>
+          </div>
+          <div className="flex flex-col justify-center items-center   shadow-lg rounded-xl p-2 hover:shadow-lg  cursor-pointer bg-white hover:-translate-y-4 transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-brand-python"
+              width="72"
+              height="72"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="#00abfb"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+              <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+              <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
+              <path d="M11 6l0 .01" />
+              <path d="M13 18l0 .01" />
+            </svg>
+            <p className="text-lg uppercase text-gray-700 font-bold">PYTHON</p>
           </div>
 
           <div className="flex flex-col justify-center items-center   shadow-lg rounded-xl p-2 hover:shadow-lg  cursor-pointer bg-white hover:-translate-y-4 transition-all">
