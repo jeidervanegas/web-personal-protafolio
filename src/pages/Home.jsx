@@ -102,7 +102,7 @@ export const Home = () => {
                 </a>
               </li>
             </div>
-            <nav className="flex justify-center items-center text-lg text-gray-700 font-semibold py-10 md:py-0">
+            <nav className="flex justify-center items-center text-sm  md:text-lg text-gray-700 font-semibold py-10 md:py-0">
               <ul className="grid grid-cols-4 md:flex  md:flex-row gap-4 justify-center items-center  ">
                 {menuItems.map((menu) => (
                   <li className="hover:text-gray-900" key={menu.id}>
