@@ -9,6 +9,46 @@ import imgage2 from '../img/galeria-2.jpg'
 import imgage3 from '../img/galeria-3.jpg'
 import { Portafolio } from './Portafolio'
 import { Link } from 'react-scroll'
+import { DiseñoMultimedia } from './DiseñoMultimedia'
+
+import Image1 from '../img/dibujo/1.jpg';
+import Image2 from '../img/dibujo/2.jpg';
+import Image3 from '../img/dibujo/3.jpg';
+import Image4 from '../img/dibujo/4.jpg';
+import Image5 from '../img/dibujo/5.jpg';
+import Image6 from '../img/dibujo/6.jpg';
+import Image7 from '../img/dibujo/7.jpg';
+import Image8 from '../img/dibujo/8.jpg';
+import Image9 from '../img/dibujo/9.jpg';
+import Image10 from '../img/dibujo/10.jpg';
+import Image11 from '../img/dibujo/11.jpg';
+import Image12 from '../img/dibujo/12.jpg';
+import Image13 from '../img/dibujo/13.jpg';
+import Image14 from '../img/dibujo/14.jpg';
+import Image15 from '../img/dibujo/15.jpg';
+import Image16 from '../img/dibujo/16.jpg';
+import Image17 from '../img/dibujo/17.jpg';
+import Image18 from '../img/dibujo/18.jpg';
+import Image19 from '../img/dibujo/19.jpg';
+import Image20 from '../img/dibujo/20.jpg';
+import Image21 from '../img/dibujo/20.jpg';
+
+import pho from '../img/software/photshop.png';
+import ai from '../img/software/ai.png';
+import cor from '../img/software/corel.jpg';
+import clip from '../img/software/clip.png';
+import pre from '../img/software/premier.png';
+import can from '../img/software/camtasia.jpg';
+import pro from '../img/software/protools.png';
+import off from '../img/software/office.svg';
+
+import pu1 from '../img/publicidad/pu1.jpeg';
+import pu2 from '../img/publicidad/pu2.jpeg';
+import pu3 from '../img/publicidad/pu3.jpeg';
+import pu4 from '../img/publicidad/pu4.jpeg';
+import pu5 from '../img/publicidad/pu5.jpeg';
+import pu6 from '../img/publicidad/pu6.jpeg';
+import pu7 from '../img/publicidad/pu7.jpeg';
 
 export const Home = () => {
   const Project = ['fullStack', 'frontendReact', 'nativo']
@@ -27,6 +67,24 @@ export const Home = () => {
       title: 'portafolio'
     },
     {
+      id: 3,
+      title: 'multimedia'
+    },
+    {
+      id: 3,
+      title: 'diseño'
+    },
+    {
+      id: 3,
+      title: 'ilustraciones'
+    },
+
+    {
+      id: 3,
+      title: 'informatica'
+    },
+
+    {
       id: 4,
       title: 'estudios'
     }
@@ -44,8 +102,8 @@ export const Home = () => {
                 </a>
               </li>
             </div>
-            <nav className="flex justify-center items-center text-lg text-gray-700 font-semibold ">
-              <ul className="flex flex-col md:flex-row gap-4 justify-center items-center ">
+            <nav className="flex justify-center items-center text-lg text-gray-700 font-semibold py-10 md:py-0">
+              <ul className="grid grid-cols-4 md:flex  md:flex-row gap-4 justify-center items-center  ">
                 {menuItems.map((menu) => (
                   <li className="hover:text-gray-900" key={menu.id}>
                     <Link
@@ -67,8 +125,8 @@ export const Home = () => {
 
       <section id="descripcion" className="pt-56 md:pt-12">
         <div className="md:w-4/5 m-auto p-10 ">
-          <div className="flex  flex-col-reverse md:flex-row justify-center items-center ">
-            <div className=" md:w-4/5 mt-6 md:0 ">
+          <div className="flex  flex-col-reverse lg:flex-row justify-center items-center ">
+            <div className=" lg:w-4/5 mt-6 md:0 ">
               <h2 className="text-3xl text-center md:text-left md:text-5xl">
                 Hola, soy{' '}
                 <span className="text-teal-600 font-bold">
@@ -210,8 +268,8 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
-      <section id="skills" className="w-4/5 mx-auto mb-20">
+      <p id="skills"></p>
+      <section  className="w-4/5 mx-auto mb-20">
         <h2 className="text-3xl text-center mt-14 mb-10">
           Experiencia con el{' '}
           <span className="text-teal-600 font-bold">Stack Mern </span>{' '}
@@ -514,11 +572,140 @@ export const Home = () => {
       <main className="bg-white flex flex-col md:flex-row   ">
         <Portafolio />
       </main>
+        <div className='bg-white'>
 
+        <p id='multimedia'></p>
+        <p
+          id="portafolio"
+          className="text-xl bg-teal-800 inline-block py-4 pl-4 pr-28 text-white rounded-se-2xl"
+        >
+          Diseño Multimedia
+        </p>
+      </div>
+
+        <section  className=''>
+          <DiseñoMultimedia/>
+          <p id='diseño'></p>        
+        </section>
+
+
+        <section className=' bg-gradient-to-r from-teal-600 to-blue-500 p-3 mb-20 '>
+          <div className=''>
+            <div className='shadow-xl translate-y-[-80px] w-3/4 m-auto bg-teal-500'>
+              <article className='grid md:grid-cols-3 gap-4 p-4  '>
+                <img src={pu6} alt="" />
+                <img className='h-full object-cover'  src={pu5} alt="" />
+                <img className='h-full object-cover' src={pu2} alt="" />
+                <img className='h-full object-cover' src={pu3} alt="" />
+                <img className='h-full object-cover' src={pu1} alt="" />
+                <img className='h-full object-cover' src={pu4} alt="" />
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <p id='ilustraciones'></p>
+        <section>
+          <section className='flex flex-col gap-4  m-auto bg-white py-10 mb-20 '>
+          <h3 className='text-2xl text-center lg:text-left w-3/4 ml-[96px]'>Mi nombre artístico es <span className='font-bold text-teal-600'>zotari</span>, aquí tienes algunas de mis obras...</h3>
+              <article className='w-11/12 m-auto'>
+
+                  <article className=' grid md:grid- lg:grid-cols-5 gap-4 p-6'>
+                  {/* <img className='w-[400px] h-full shadow-xl rounded-lg object-cover' src={Image19} alt="" /> */}
+                  {/* <img className='w-[400px] h-full object-cover shadow-xl rounded-lg' src={Image20} alt="" />
+                  <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image17} alt="" />
+                  <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image18} alt="" />
+                  <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image1} alt="" /> */}
+
+                  </article>
+
+                  <article className=' grid grid-cols-2 md:grid-cols-4 gap-4 p-6'>
+                  <img className='w-[400px] h-full shadow-lg rounded-lg shadow-xl rounded-lg' src={Image5} alt="" />
+                  <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image10} alt="" />
+                  <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image2} alt="" />
+                  <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image16} alt="" />
+
+                  </article>
+
+                  <article className=' grid grid-cols-2 md:grid-cols-4 gap-4 p-6'>
+                      <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image3} alt="" />
+                      <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image7} alt="" />
+                      <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image8} alt="" />
+                      <img className='w-[400px] h-full shadow-xl rounded-lg' src={Image14} alt="" />
+
+                  </article>
+              </article>
+          </section>
+        </section>
+
+        <p
+        id="informatica"
+        className="text-xl bg-teal-800 inline-block py-4 pl-4 pr-28 text-white rounded-se-2xl"
+        >
+        Conocimientos Informáticos
+        </p>
+
+        <article className='mb-20  fondo'>
+            <div className='sombra'>
+
+            <div className='w-3/4 py-20 m-auto '>
+
+                {/* <h3 className='text-xl text-center md:text-left py-10 text-white'>Progrmas que manejo</h3> */}
+            <div className=' my-10'>
+                <section className='grid 
+                md:grid-cols-3 lg:grid-cols-5 items-center justify-center gap-20'>
+                    <div className='flex flex-col items-center text-xl text-white '>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2' src={pho} alt="" />
+                        <p>Photoshop</p>
+                    </div>
+                    <div className='flex flex-col items-center text-xl text-white '>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2 '  src={ai} alt="" />
+                        <p>Adobe Illustrator</p>
+                    </div>
+                    <div className='flex flex-col items-center text-xl text-white'>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2' src={cor} alt="" />
+                        <p>Corel Draw</p>
+                    </div>
+                    <div className='flex flex-col items-center text-xl text-white'>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2' src={pre} alt="" />
+                        <p>Adobe Premier</p>
+                    </div>
+                    <div className='flex flex-col items-center text-xl text-white'>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2' src={clip} alt="" />
+                        <p>Clip Studio Paint</p>
+                    </div>
+                    <div className='flex flex-col items-center text-xl text-white'>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2' src={can} alt="" />
+                        <p>Camtasia</p>
+                    </div>
+                    <div className='flex flex-col items-center text-xl text-white'>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2' src={pro} alt="" />
+                        <p>Pro Tools</p>
+                    </div>
+                    <div className='flex flex-col items-center text-xl text-white'>
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[200px] lg:h-[200px] rounded-full border border-2' src={off} alt="" />
+                        <p>Office</p>
+                    </div>
+                </section>
+            </div>
+            </div>
+            </div>
+        </article>
+
+
+      {/* <section className='bg-white' id='programas'>
+          <h3>hola</h3>
+      </section> */}
+      <p
+        id="plus"
+        className="text-xl bg-teal-800 inline-block py-4 pl-4 pr-28 text-white rounded-se-2xl"
+      >
+        Estudios
+      </p>
       <section id="estudios" className="bg-gray-800 text-white py-10 ">
         <div className="w-11/12 m-auto ">
-          <div className="md:flex md:gap-6 ">
-            <div className="md:w-4/12  shadow-2xl  border border-gray-500 rounded-xl mb-10 md:mb-0 bg-gray-100/10 ">
+          <div className="lg:flex md:gap-6 ">
+            <div className="lg:w-4/12  shadow-2xl  border border-gray-500 rounded-xl mb-10 md:mb-0 bg-gray-100/10 ">
               <div className="p-4 border-b border-gray-500 ">
                 <h3 className="text-2xl mb-3">Estudios</h3>
                 <div>
@@ -528,7 +715,7 @@ export const Home = () => {
                       {' '}
                       Politécnico Internacional
                     </span>
-                    <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl font-normal">
+                    <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl font-normal block">
                       Descargar Certificado
                     </button>
                   </p>
@@ -541,7 +728,19 @@ export const Home = () => {
                       Politécnico Internacional
                     </span>
                   </p>
-                  <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl ">
+                  <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl block">
+                    Descargar Certificado
+                  </button>
+                </div>
+
+                <div>
+                  <p className="text-lg font-bold ">
+                    Emprendedor en Producción de Piezas Audíbles para Industrias CULTURALES -{' '}
+                    <span className="font-normal ">
+                      Politécnico Internacional
+                    </span>
+                  </p>
+                  <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl block ">
                     Descargar Certificado
                   </button>
                 </div>
@@ -549,35 +748,38 @@ export const Home = () => {
 
               <div className="text-lg p-4">
                 <h4 className="text-2xl mt-2 mb-3">Datos personales</h4>
-                <p className="font-bold">
+                {/* <p className="font-bold">
                   Edad: <span className="font-normal">31</span>
+                </p> */}
+                <p className="font-bold">
+                  Ciudad: <span className="font-normal">Medellin</span>
                 </p>
                 <p className="font-bold">
                   Pais: <span className="font-normal">Colombia</span>
                 </p>
-                <p className="font-bold">
+                {/* <p className="font-bold">
                   Dirección:{' '}
                   <span className="font-normal">
                     Calle 25 # 7-78 tuluá valle
                   </span>
-                </p>
+                </p> */}
                 <p className="font-bold">
                   Correo:{' '}
                   <span className="font-normal">jeidergomezv@gmail.com</span>
                 </p>
                 <p className="font-bold">
-                  Celular: <span className="font-normal">315-380-3250</span>
+                  Celular: <span className="font-normal">316-839-9561 | 315-380-3250</span>
                 </p>
               </div>
             </div>
 
-            <div className="bg-white text-gray-800 w-full rounded-xl shadow-2xl flex flex-col md:flex-row md:items-center md:justify-center gap-6 py-6">
-              <div className="md:w-2/5 flex justify-center mt-12 md:mt-0">
+            <div className="bg-white text-gray-800 w-full rounded-xl shadow-2xl flex flex-col lg:flex-row md:items-center md:justify-center gap-6 py-6">
+              <div className="lg:w-2/5 flex justify-center mt-12 md:mt-0">
                 <img className="max-h-96" src={imgageMain} alt="" />
               </div>
 
-              <div className=" h-full md:w-3/5 flex flex-col gap-6 md:gap-0 justify-evenly rounded-xl">
-                <h3 className="text-blue-600 text-3xl text-center md:text-left font-bold py-6">
+              <div className=" h-full lg:w-3/5 flex flex-col gap-6 md:gap-0 justify-evenly rounded-xl">
+                <h3 className="text-blue-600 text-3xl text-center lg:text-left font-bold py-6">
                   ¿Cómo pienso?
                 </h3>
                 <div className="  w-3/4 m-auto shadow-md p-6 rounded-xl">
@@ -590,7 +792,7 @@ export const Home = () => {
                 </div>
                 <div className="  w-3/4 m-auto shadow-md p-6 rounded-xl">
                   <p className="">
-                    Disfruto de las cosas difíciles ya que la vida me ha
+                    Disfruto de los retos ya que la vida me ha
                     enseñado, a través de experiencias, que las buenas cosas
                     toman tiempo. No existe nada más satisfactorio que la
                     sensación de haber alcanzado una meta o haber culminado un
