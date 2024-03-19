@@ -152,7 +152,7 @@ export const Home = () => {
                 ambiente laboral. Contácto:{' '}
                 <span className="text-gray-500 font-bold">
                   {' '}
-                  +57 323 832 3994
+                  316 839 9561 || +57 323 832 3994
                 </span>
               </p>
 
@@ -589,10 +589,10 @@ export const Home = () => {
         </section>
 
 
-        <section className=' bg-gradient-to-r from-teal-600 to-blue-500 p-3 mb-20 '>
+        <section className=' bg-gradient-to-r from-teal-600 to-blue-300 p-3 mb-20 '>
           <div className=''>
             <div className='shadow-xl translate-y-[-80px] w-3/4 m-auto bg-teal-500'>
-              <article className='grid md:grid-cols-3 gap-4 p-4  '>
+              <article className='grid md:grid-cols-3 gap-2 p-2  '>
                 <img src={pu6} alt="" />
                 <img className='h-full object-cover'  src={pu5} alt="" />
                 <img className='h-full object-cover' src={pu2} alt="" />
@@ -653,37 +653,37 @@ export const Home = () => {
                 {/* <h3 className='text-xl text-center md:text-left py-10 text-white'>Progrmas que manejo</h3> */}
             <div className=' my-10'>
                 <section className='grid 
-                md:grid-cols-3 lg:grid-cols-5 items-center justify-center gap-20'>
+                md:grid-cols-3 lg:grid-cols-5 items-center justify-center gap-16'>
                     <div className='flex flex-col items-center text-xl text-white '>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pho} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pho} alt="" />
                         <p>Photoshop</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white '>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2 '  src={ai} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2 '  src={ai} alt="" />
                         <p>Adobe Illustrator</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={cor} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={cor} alt="" />
                         <p>Corel Draw</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pre} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pre} alt="" />
                         <p>Adobe Premier</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={clip} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={clip} alt="" />
                         <p>Clip Studio Paint</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={can} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={can} alt="" />
                         <p>Camtasia</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pro} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pro} alt="" />
                         <p>Pro Tools</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={off} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={off} alt="" />
                         <p>Office</p>
                     </div>
                 </section>
