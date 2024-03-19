@@ -49,6 +49,10 @@ import pu4 from '../img/publicidad/pu4.jpeg';
 import pu5 from '../img/publicidad/pu5.jpeg';
 import pu6 from '../img/publicidad/pu6.jpeg';
 import pu7 from '../img/publicidad/pu7.jpeg';
+import pu8 from '../img/publicidad/pu8.jpg';
+import pu9 from '../img/publicidad/pu9.jpeg';
+import pu10 from '../img/publicidad/pu10.jpeg';
+import pu11 from '../img/publicidad/pu11.jpeg';
 
 export const Home = () => {
   const Project = ['fullStack', 'frontendReact', 'nativo']
@@ -95,7 +99,7 @@ export const Home = () => {
       <div className=" bg-gray-50 fixed z-10 w-full">
         <div className="w-11/12 m-auto ">
           <header className="flex flex-col md:flex-row text-center md:justify-between py-4 ">
-            <div className="mb-3 md:mb-0">
+            <div className=" md:mb-0">
               <li className="list-none">
                 <a className="text-3xl font-extrabold ">
                   <span className="italic">JV</span>.
@@ -598,7 +602,17 @@ export const Home = () => {
                 <img className='h-full object-cover' src={pu2} alt="" />
                 <img className='h-full object-cover' src={pu3} alt="" />
                 <img className='h-full object-cover' src={pu1} alt="" />
-                <img className='h-full object-cover' src={pu4} alt="" />
+                <img className='h-full object-cover' src={pu7} alt="" />
+
+              </article>
+              <article className='flex gap-2 p-2'>
+                <div>
+                  <img className=' h-full object-cover' src={pu8} alt="" />
+                </div>
+                <div className='flex flex-col gap-2'>
+                  <img className='h-[50%] w-full ' src={pu11} alt="" />
+                  <img className='h-[50%] w-full ' src={pu4} alt="" />
+                </div>
               </article>
             </div>
           </div>
