@@ -655,35 +655,35 @@ export const Home = () => {
                 <section className='grid 
                 md:grid-cols-3 lg:grid-cols-5 items-center justify-center gap-20'>
                     <div className='flex flex-col items-center text-xl text-white '>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2' src={pho} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pho} alt="" />
                         <p>Photoshop</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white '>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2 '  src={ai} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2 '  src={ai} alt="" />
                         <p>Adobe Illustrator</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2' src={cor} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={cor} alt="" />
                         <p>Corel Draw</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2' src={pre} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pre} alt="" />
                         <p>Adobe Premier</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2' src={clip} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={clip} alt="" />
                         <p>Clip Studio Paint</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2' src={can} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={can} alt="" />
                         <p>Camtasia</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2' src={pro} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={pro} alt="" />
                         <p>Pro Tools</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
-                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[180px] lg:h-[180px] rounded-full border border-2' src={off} alt="" />
+                        <img className=' w-[180px] h-[180px] md:w-[120px] md:h-[120px] lg:w-[170px] lg:h-[170px] rounded-full border border-2' src={off} alt="" />
                         <p>Office</p>
                     </div>
                 </section>
