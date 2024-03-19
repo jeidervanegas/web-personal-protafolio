@@ -686,7 +686,7 @@ export const Home = () => {
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
                         <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[140px] lg:h-[140px] rounded-full border border-2' src={clip} alt="" />
-                        <p>Clip Studio Paint</p>
+                        <p>Clip Studio</p>
                     </div>
                     <div className='flex flex-col items-center text-xl text-white'>
                         <img className=' w-[180px] h-[180px] md:w-[100px] md:h-[100px] lg:w-[140px] lg:h-[140px] rounded-full border border-2' src={can} alt="" />
