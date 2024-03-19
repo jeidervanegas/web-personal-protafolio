@@ -607,8 +607,8 @@ export const Home = () => {
         <p id='ilustraciones'></p>
         <section>
           <section className='flex flex-col gap-4  m-auto bg-white py-10 mb-20 '>
-          <h3 className='text-2xl text-center lg:text-left w-3/4 ml-[96px]'>Mi nombre artístico es <span className='font-bold text-teal-600'>zotari</span>, aquí tienes algunas de mis obras...</h3>
               <article className='w-11/12 m-auto'>
+          <h3 className='text-3xl text-center  py-20'>Mi nombre artístico es <span className='font-bold text-teal-600'>zotari</span>, aquí tienes algunas de mis obras...</h3>
 
                   <article className=' grid md:grid- lg:grid-cols-5 gap-4 p-6'>
                   {/* <img className='w-[400px] h-full shadow-xl rounded-lg object-cover' src={Image19} alt="" /> */}
