@@ -172,30 +172,7 @@ export const Home = () => {
 
                 <div>
                   <div className="flex justify-end gap-10">
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/watch?v=CP4E7ZCIclI&t=52s"
-                    >
-                      <div className="hover:cursor-pointer">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="icon icon-tabler icon-tabler-brand-youtube"
-                          width="32"
-                          height="32"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="#4B5563"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
-                          <path d="M10 9l5 3l-5 3z" />
-                        </svg>
-                      </div>
-                    </a>
-                    <a
+                  <a
                       target="_blank"
                       href="https://www.linkedin.com/in/jeider-gomez-8b278328a/"
                     >
@@ -221,6 +198,30 @@ export const Home = () => {
                         </svg>
                       </div>
                     </a>
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/watch?v=CP4E7ZCIclI&t=52s"
+                    >
+                      <div className="hover:cursor-pointer">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-brand-youtube"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="#4B5563"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                          <path d="M10 9l5 3l-5 3z" />
+                        </svg>
+                      </div>
+                    </a>
+                   
                     <div className="hover:cursor-pointer">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -593,9 +594,9 @@ export const Home = () => {
         </section>
 
 
-        <section className=' bg-gradient-to-r from-teal-600 to-blue-300 p-3 mb-20 '>
+        <section className=' bg-gradient-to-r from-teal-600 to-blue-400 p-3 mb-20 '>
           <div className=''>
-            <div className='shadow-xl translate-y-[-80px] w-3/4 m-auto bg-teal-500'>
+            <div className='shadow-xl translate-y-[-80px] w-3/4 m-auto bg-teal-400'>
               <article className='grid md:grid-cols-3 gap-2 p-2  '>
                 <img src={pu6} alt="" />
                 <img className='h-full object-cover'  src={pu5} alt="" />
@@ -742,10 +743,20 @@ export const Home = () => {
                       Politécnico Internacional
                     </span>
                   </p>
+
+                </div>
+
+
+                <a
+                  target="_blank"
+                  href="https://www.mediafire.com/file/73jdscnhplhueva/diplomado_dise%25C3%25B1o_web_interactivo.pdf/file"
+                >
                   <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl block">
                     Descargar Certificado
                   </button>
-                </div>
+                </a>
+
+
 
                 <div>
                   <p className="text-lg font-bold ">
