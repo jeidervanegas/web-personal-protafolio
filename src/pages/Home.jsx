@@ -156,14 +156,14 @@ export const Home = () => {
                 ambiente laboral. Contácto:{' '}
                 <span className="text-gray-500 font-bold">
                   {' '}
-                  316 839 9561 || +57 323 832 3994
+                  316 839 9561 | +57 323 832 3994
                 </span>
               </p>
 
               <div className="flex flex-col md:flex-row justify-between items-center gap-6 mt-6 mb-6 w-11/12">
                 <a
                   target="_blank"
-                  href="https://www.mediafire.com/file/5tzgvuk7ly1bcbr/CV_jeider_gomez_vanegass.pdf/file"
+                  href="https://www.mediafire.com/file/0uumejpwdgn6j76/CV_jeider_gomez_vanegas.pdf/file"
                 >
                   <button className="shadow-lg w-full md:w-auto py-3 text-teal-500 font-bold border-2 border-teal-500 hover:bg-teal-500 hover:text-white transition-all px-8 rounded-full ">
                     Descargar CV
