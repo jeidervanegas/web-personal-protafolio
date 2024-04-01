@@ -650,7 +650,13 @@ export const Home = () => {
 
                   </article>
               </article>
+          <article className='my-14 flex flex-col items-center w-11/12 m-auto '>
+            <h4 className='text-xl md:text-3xl  text-gray-600 mb-8  text-center'>¡Recuerda que tengo un canal de <span className='text-red-600 font-semibold'>YouTube</span>  donde enseño a muchas personas a dibujar! </h4>
+            <a target="_blank" className='text-2xl uppercase text-gray-600 font-semibold shadow-md p-6 rounded-full  ' href="https://www.youtube.com/watch?v=CP4E7ZCIclI&list=PLh0sdhQCDYeSJBedZ8uqSVu5uEprOSIf1&index=4  ">Pulsa aquí</a>
+          </article>
           </section>
+        
+
         </section>
 
         <p
