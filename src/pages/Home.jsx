@@ -139,7 +139,7 @@ export const Home = () => {
                 </span>
                 Programador{' '}
                 <span className="text-gray-600 font-bold">
-                  Junior Full Stack
+                  Junior Full Stack  <span className="font-normal text-gray-950">y Diseñador</span> Multimedia
                 </span>
               </h2>
               <p className="mt-6  md:w-11/12 leading-7">
@@ -768,13 +768,26 @@ export const Home = () => {
                   <p className="text-lg font-bold ">
                     Emprendedor en Producción de Piezas Audíbles para Industrias CULTURALES -{' '}
                     <span className="font-normal ">
-                      Politécnico Internacional
+                      Sena
                     </span>
                   </p>
                   <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl block ">
                     Descargar Certificado
                   </button>
                 </div>
+
+                <div>
+                  <p className="text-lg font-bold ">
+                    Desarrollo Multimedia y Web -{' '}
+                    <span className="font-normal ">
+                      Sena / en curso
+                    </span>
+                  </p>
+                  <button className=" bg-indigo-800 p-3 rounded-xl  my-3 text-sm hover:bg-indigo-700 shadow-xl block ">
+                    Descargar Certificado
+                  </button>
+                </div>
+
               </div>
 
               <div className="text-lg p-4">
@@ -783,7 +796,7 @@ export const Home = () => {
                   Edad: <span className="font-normal">31</span>
                 </p> */}
                 <p className="font-bold">
-                  Ciudad: <span className="font-normal">Medellin</span>
+                  Ciudad: <span className="font-normal">Medellin / con posibilidad de traslado a cualquier parte del pais</span>
                 </p>
                 <p className="font-bold">
                   Pais: <span className="font-normal">Colombia</span>
@@ -796,10 +809,10 @@ export const Home = () => {
                 </p> */}
                 <p className="font-bold">
                   Correo:{' '}
-                  <span className="font-normal">jeidergomezv@gmail.com</span>
+                  <span className="font-normal">jeidergomezv@gmail.com / jeiderg163@gmail.com</span>
                 </p>
                 <p className="font-bold">
-                  Celular: <span className="font-normal">316-839-9561 | 315-380-3250</span>
+                  Celular: <span className="font-normal">316-839-9561 | 323-832-3994</span>
                 </p>
               </div>
             </div>
